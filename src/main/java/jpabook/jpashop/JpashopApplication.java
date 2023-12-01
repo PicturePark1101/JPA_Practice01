@@ -8,10 +8,10 @@ public class JpashopApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JpashopApplication.class, args);
-
-		Hello hello = new Hello();
-		hello.setData("Hello");
-		System.out.println(hello);
+//
+//		Hello hello = new Hello();
+//		hello.setData("Hello");
+//		System.out.println(hello);
 
 	}
 
