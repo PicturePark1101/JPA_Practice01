@@ -25,6 +25,11 @@ public class OrderItem {
 
     private int count; // 주문 당시의 수량
 
+
+    protected OrderItem(){
+
+    }
+
     //비지니스 로직
     public void cancel() {
         getItem().addStock(count); //재고수량 원복
